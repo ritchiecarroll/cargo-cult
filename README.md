@@ -1,4 +1,4 @@
-# cargo-cult 🕯️🦀
+# cargo-culting 🕯️🦀
 
 > *Add dependencies without understanding why.*
 
@@ -19,23 +19,23 @@ In programming, this manifests as:
 ## Installation
 
 ```bash
-cargo install cargo-cult
+cargo install cargo-culting
 ```
 
 ## Usage
 
 ```bash
 # Perform the ritual (simulate adding a random dependency)
-cargo cult
+cargo culting
 
 # Add multiple mystery dependencies
-cargo cult ritual --count 3
+cargo culting ritual --count 3
 
 # Explain cargo cult programming
-cargo cult explain
+cargo culting explain
 
 # List all dependencies in the sacred texts
-cargo cult list
+cargo culting list
 ```
 
 ## Example Output
