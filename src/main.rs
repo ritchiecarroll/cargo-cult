@@ -123,7 +123,7 @@ const REASONS: &[&str] = &[
 #[command(name = "cargo")]
 #[command(bin_name = "cargo")]
 enum Cargo {
-    Cult(CultArgs),
+    Culting(CultArgs),
 }
 
 #[derive(Parser)]
@@ -148,7 +148,7 @@ enum CultCommand {
 }
 
 fn main() {
-    let Cargo::Cult(args) = Cargo::parse();
+    let Cargo::Culting(args) = Cargo::parse();
 
     match args.command {
         Some(CultCommand::Explain) => explain(),
